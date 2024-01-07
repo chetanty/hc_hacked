@@ -23,8 +23,7 @@
                 android:id="@+id/es_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:scaleX="1"
-                android:text="Emergency Shelter"
+                android:text="24/7 Emergency Shelter\n🛖🛖🛖"
                 android:textAlignment="center"
                 android:textSize="100px"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -47,7 +46,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="300px"
-                    android:text="Youths"
+                    android:text="Youths 🧒"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.726"
                     app:layout_constraintStart_toStartOf="parent"
@@ -59,7 +58,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
-                    android:text="Adults"
+                    android:text="Adults 🧓"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.287"
                     app:layout_constraintStart_toStartOf="parent"
@@ -79,18 +78,18 @@
 
             <Button
                 android:id="@+id/foodbtn"
-                android:layout_width="wrap_content"
+                android:layout_width="351dp"
                 android:layout_height="wrap_content"
-                android:text="Food Supply Location"
                 android:layout_gravity="center"
                 android:layout_marginTop="-80dp"
+                android:text="🥫Food Supply Location🥫"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.496"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/shelter_img"
-                app:layout_constraintVertical_bias="0.047"/>
+                app:layout_constraintVertical_bias="0.047" />
 
             <View
                 android:id="@+id/divider"
@@ -108,8 +107,9 @@
                 android:id="@+id/transportation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Transportation"
+                android:text="Transportation 🚌"
                 android:textSize="100px"
+                android:textAlignment="center"
                 android:layout_gravity="center"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -118,14 +118,13 @@
                 app:layout_constraintTop_toBottomOf="@+id/divider"
                 app:layout_constraintVertical_bias="0.086"/>
 
-
-
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_marginTop="-500px"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/transportation"/>
+                android:layout_marginTop="-500px"
+                app:srcCompat="@drawable/transportation" />
+
             <View
                 android:id="@+id/divider1"
                 android:layout_width="wrap_content"
@@ -138,8 +137,9 @@
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Emergency Contacts"
+                android:text="Emergency Contacts📞\n 🚨🚨🚨"
                 android:textSize="100px"
+                android:textAlignment="center"
                 android:layout_gravity="center"
                 />
 
@@ -153,11 +153,13 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Call 911"></Button>
+                    android:text="Call 911"
+                    android:id="@+id/btn911"></Button>
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Call Hope Mission"></Button>
+                    android:text="Call Hope Mission"
+                    android:id="@+id/btnHM"></Button>
             </LinearLayout>
 
             <LinearLayout
@@ -169,11 +171,13 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Call 811"></Button>
+                    android:text="Call 811"
+                    android:id="@+id/btn811"></Button>
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Call 211 (Press 3)"></Button>
+                    android:text="Call 211 (Press 3)"
+                    android:id="@+id/btn211"></Button>
             </LinearLayout>
 
         </LinearLayout>
