@@ -6,11 +6,46 @@
     android:layout_height="match_parent"
     tools:context=".Page3">
 
-    <TextView
-        android:id="@+id/textView3"
+    <!-- Chatbot Response TextView -->
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/userInputEditText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_weight="1">
+
+        <TextView
+            android:id="@+id/chatbotResponseTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"/>
+    </ScrollView>
+
+    <!-- User Input EditText -->
+    <EditText
+        android:id="@+id/userInputEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Type your message here. eg.- Shelters near me"
+
+        app:layout_constraintBottom_toTopOf="@id/sendButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/sendButton"
+        app:layout_constraintTop_toBottomOf="@id/chatbotResponseTextView"
+        android:layout_margin="8dp"/>
+
+    <!-- Send Button -->
+    <Button
+        android:id="@+id/sendButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Page 3"
-        tools:layout_editor_absoluteX="169dp"
-        tools:layout_editor_absoluteY="136dp" />
+        android:text="Send"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chatbotResponseTextView"
+        app:layout_constraintLeft_toRightOf="@id/userInputEditText"
+        android:layout_margin="8dp"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
