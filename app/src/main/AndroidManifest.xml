@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Hc"
         tools:targetApi="31">
         <activity
+            android:name=".PDF"
+            android:exported="false" />
+        <activity
+            android:name=".PDFViewer"
+            android:exported="false" />
+        <activity
             android:name=".Page3"
             android:exported="false" />
         <activity
