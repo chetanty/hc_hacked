@@ -1,0 +1,96 @@
+[33mcommit 1d784921fb454fb21b1946de4e9643b79762e7ce[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: EdDee296 <109675085+EdDee296@users.noreply.github.com>
+Date:   Sun Jan 7 08:42:31 2024 -0700
+
+    p1
+
+[33mcommit fe5419f9a05ead3e9220668760f11266c3e6ec03[m
+Author: EdDee296 <109675085+EdDee296@users.noreply.github.com>
+Date:   Sun Jan 7 08:34:44 2024 -0700
+
+    p1
+
+[33mcommit dc589ef4b0f0fafbe107ffca222bfd17d805b3cf[m
+Author: EdDee296 <109675085+EdDee296@users.noreply.github.com>
+Date:   Sun Jan 7 07:53:53 2024 -0700
+
+    p1
+
+[33mcommit 7b97de49da434de75da49af5237b1a0c2e3a3fc2[m
+Author: EdDee296 <109675085+EdDee296@users.noreply.github.com>
+Date:   Sun Jan 7 07:48:49 2024 -0700
+
+    p1
+
+[33mcommit cee2b96b0d8ffdbd24325d3e90fb661e53f5f5e4[m
+Author: EdDee296 <109675085+EdDee296@users.noreply.github.com>
+Date:   Sun Jan 7 07:35:18 2024 -0700
+
+    p1
+
+[33mcommit 9cb4d0b5bf88e8ba90678f9527f297e46ef1a601[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Chetan Tyagi <87710619+chetanty@users.noreply.github.com>
+Date:   Sun Jan 7 07:29:22 2024 -0700
+
+    Update colors.xml
+
+[33mcommit f921b3307bb9fa22946a2113da35a095f20cfa4b[m
+Author: Chetan Tyagi <87710619+chetanty@users.noreply.github.com>
+Date:   Sun Jan 7 07:29:08 2024 -0700
+
+    Update themes.xml
+
+[33mcommit f24f8c18619f3abb15c8a80e3d99b283084fc98a[m
+Author: Chetan Tyagi <87710619+chetanty@users.noreply.github.com>
+Date:   Sun Jan 7 07:28:25 2024 -0700
+
+    Update activity_main.xml
+
+[33mcommit 439518a9c756dff4df12ee49374ec73816774927[m
+Author: Chetan Tyagi <87710619+chetanty@users.noreply.github.com>
+Date:   Sun Jan 7 06:34:09 2024 -0700
+
+    Update activity_page3.xml
+
+[33mcommit 82c7d9c846ef2835fec148815946200e152605cc[m
+Author: Chetan Tyagi <87710619+chetanty@users.noreply.github.com>
+Date:   Sun Jan 7 06:33:28 2024 -0700
+
+    Update Page3.java
+
+[33mcommit a046506f64342830f6fa8bb9fa6090c99fb69597[m
+Author: EdDee296 <109675085+EdDee296@users.noreply.github.com>
+Date:   Sun Jan 7 03:52:00 2024 -0700
+
+    Basic features for page 2
+
+[33mcommit 9178a55e8152dcce7f0c02e52afb7381b821f6d4[m
+Author: EdDee296 <109675085+EdDee296@users.noreply.github.com>
+Date:   Sat Jan 6 23:15:23 2024 -0700
+
+    page 2
+
+[33mcommit 003bcf68a17aa966afe45b7abf5950e1b4647991[m
+Merge: bf219f6 7a24793
+Author: Chetan Tyagi <ctat684@gmail.com>
+Date:   Sat Jan 6 11:48:54 2024 -0700
+
+    Merge branch 'main' of https://github.com/chetanty/hc_hacked
+
+[33mcommit 7a2479366c0648c99ece2aaabd03e34fb3bb176e[m
+Author: Chetan Tyagi <87710619+chetanty@users.noreply.github.com>
+Date:   Sat Jan 6 11:44:51 2024 -0700
+
+    Initial commit
+
+[33mcommit bf219f669b721eede24be4e13a57804d31d32c89[m
+Author: Chetan Tyagi <ctat684@gmail.com>
+Date:   Sat Jan 6 11:40:26 2024 -0700
+
+    Your commit message
+
+[33mcommit a6ea677d792b25b3c969ed70c1ca10c8283c81dc[m
+Author: Chetan Tyagi <ctat684@gmail.com>
+Date:   Sat Jan 6 11:30:31 2024 -0700
+
+    Initial commit
